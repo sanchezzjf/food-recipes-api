@@ -1,0 +1,29 @@
+[
+    {
+        "id": "0",
+        "tittle": "Bolinho de Arroz Vegano",
+        "ingredients": [
+            {
+                "name": "Arroz",
+                "qntd": "2 xicaras"
+            },
+            {
+                "name": "Farinha de Trigo",
+                "qntd": "3 xicaras"
+            },
+            {
+                "name": "Linhaça",
+                "qntd": "2 colheres de sopa"
+            },
+            {
+                "name": "Agua",
+                "qntd": "1 xicara"
+            },
+            {
+                "name": "Tempero",
+                "qntd": "A gosto"
+            }
+        ],
+        "prepare": "Dolore ullamco Lorem dolore ullamco mollit id id eu proident nostrud velit sint consequat est. Eu veniam cupidatat adipisicing in eiusmod consequat minim tempor amet consequat quis incididunt nostrud enim. Occaecat elit ullamco magna commodo consectetur incididunt quis et culpa. Et dolor do ea dolore minim ullamco consequat adipisicing Lorem id excepteur. Duis duis elit occaecat duis cupidatat dolore veniam do sit cillum ex minim magna."
+    }
+]
