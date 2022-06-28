@@ -1,1 +1,1 @@
-## Endpoints
+## Endpoint mappings
