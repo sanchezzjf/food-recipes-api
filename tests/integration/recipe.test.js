@@ -59,7 +59,7 @@ test('Recipe integration test suite', async (t) => {
             'Recipe created with success!',
             'It should return a valid response'
         )
-        assert.strictEqual(
+        assert.ok(
             result.id.length > 30,
             'ID should be a UUID',
 
