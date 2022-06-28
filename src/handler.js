@@ -1,3 +1,5 @@
+// Communication between routes and server
+
 import { parse } from 'node:url'
 import { routes } from './routes/recipeRoute.js'
 import { DEFAULT_HEADER } from './util/util.js'
@@ -7,9 +9,11 @@ const recipeRoutes = routes({
 })
 const allRoutes = {
     ...recipeRoutes,
+
+    //404 routes
     default: (req, res) => {
         res.writeHead(404, DEFAULT_HEADER)
-        res.write('Hello')
+        res.write("404 This page doesn't exist")
         res.end()
     }
 }
