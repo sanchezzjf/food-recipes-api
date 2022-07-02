@@ -1,12 +1,21 @@
 // Communication between routes and server
 
+import { join, dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { parse } from 'node:url'
+import { generateInstance } from './factories/recipeFactory.js'
 import { routes } from './routes/recipeRoute.js'
 import { DEFAULT_HEADER } from './util/util.js'
 
+const currentDir = dirname(fileURLToPath(import.meta.url))
+const filePath = join(currentDir,'../database', 'db.json')
+
+const recipeService = generateInstance({ filePath })
+
 const recipeRoutes = routes({
-    recipeService: {}
+    recipeService
 })
+
 const allRoutes = {
     ...recipeRoutes,
 
