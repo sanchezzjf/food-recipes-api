@@ -10,7 +10,7 @@ test('Recipe integration test suite', async (t) => {
 
     const {server} = await import('../../src/index.js')
     
-    const testServerAddress = `http://localhost:${testPort}/api/recipe`
+    const testServerAddress = `http://localhost:${testPort}/api/recipes`
 
     await t.test('it should create a recipe', async (t) => {
         const data = {
